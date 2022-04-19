@@ -1,5 +1,12 @@
+import { FrontHeader } from "../components/FrontHeader"
+import { Navbar } from "../components/Navbar"
+
+
 export function Home() {
     return(
-        <h1>Home</h1>
+        <section>
+            <Navbar />
+            <FrontHeader />
+        </section>
     )
 }

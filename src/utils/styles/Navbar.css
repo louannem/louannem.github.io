@@ -1,0 +1,24 @@
+nav {
+    position: absolute;
+    width: 100vw;
+    height: 50px;
+    background: var(--night-blue);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+nav a { color: var(--bruised-pink); text-decoration: none; font-size: 20px; margin: 10px 10px  }
+
+.links-wrapper {
+    width: 460px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.links-wrapper a { width: 25%; text-align: center;}
+
+nav .contact-button { background-color: var(--bruised-pink); padding: 5px 15px; color: var(--night-blue); border-radius: 10px;}

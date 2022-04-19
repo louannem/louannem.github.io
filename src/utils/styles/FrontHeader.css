@@ -1,0 +1,42 @@
+#Frontheader-wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--night-blue);
+    padding: 0% 10%;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Frontheader-wrapper img {
+    position: absolute;
+    height: 85vh;
+    display: block;
+    margin: auto;
+}
+
+#Frontheader-wrapper span, #Frontheader-wrapper h1, #Frontheader-wrapper p {
+    color: var(--bruised-pink);
+}
+
+.Frontheader-content { 
+    position: absolute;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+}
+
+#Frontheader-wrapper h1 {
+    width: 50%;
+    text-align: center;
+    font-family: 'eighties_nostalgiaregular';
+    font-size: 80px;
+    margin: 0;
+}
+
+#Frontheader-wrapper span { font-size: 20px;}
+#Frontheader-wrapper p { font-size: 50px; margin-top: 30px; margin-bottom: -15px;}
