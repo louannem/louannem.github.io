@@ -17,12 +17,13 @@ form button {
     border: none;
     margin: auto;
     width: 115px; 
-    height: 30px;
+    height: 35px;
     background-color: var(--night-blue); 
     color: var(--bruised-pink); 
     text-decoration: none; 
     padding: 5px; 
     border-radius: 5px; 
     text-align: center;
+    font-size: 20px;
     cursor: pointer;
 }

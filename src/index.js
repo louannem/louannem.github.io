@@ -7,6 +7,7 @@ import { Home } from './pages/Home';
 import reportWebVitals from './reportWebVitals';
 import { About } from './pages/About';
 import { Navbar } from './components/Navbar';
+import { Projects } from './pages/Projects';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,6 +17,7 @@ root.render(
       <Routes>
         <Route path='/home' element={<Home />} ></Route>
         <Route path="/about" element={<About />}></Route>
+        <Route path="/projects" element={<Projects />}></Route>
         <Route path='/' element={<App />}></Route>
       </Routes>
     </HashRouter>

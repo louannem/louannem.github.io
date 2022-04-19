@@ -28,7 +28,8 @@ code {
 
 
 
-#about-wrapper, #Projects-section-wrapper, #Contact-section, #Overview-section, #Formation-section, #Last-projects-section {
+#about-wrapper, #Projects-section-wrapper, #Contact-section, #Overview-section, #Formation-section, 
+#Last-projects-section, #Projects-section {
   padding: 2% 10% 5% 10%;
   box-sizing: border-box;
 }

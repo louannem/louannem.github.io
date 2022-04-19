@@ -1,0 +1,47 @@
+.projects-details-wrapper { width: 100%; display: flex; justify-content: space-between; margin-top : 100px}
+.projects-details-content { width: 570px; padding: 0px 35px; box-sizing: border-box;}
+
+.projects-details-content h3 {
+    font-family: 'eighties_nostalgiaregular';
+    font-size: 40px;
+    color: var(--night-blue);
+    margin: 0px 0px 20px 0px;
+}
+
+.projects-details-content p, .projects-details-content span { font-size: 20px;} 
+.projects-details-content p { margin: 20px 0px;}
+
+
+.projects-links a { 
+    border: none;
+    margin: auto;
+    width: 115px; 
+    height: 35px;
+    background-color: var(--bruised-pink); 
+    color: var(--night-blue); 
+    text-decoration: none; 
+    padding: 5px 10px; 
+    border-radius: 5px; 
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+    margin-right: 20px;    
+}
+
+.project-details-img {
+    width: 570px;
+    height: 400px;
+    background-color: var(--bruised-pink);
+    border-radius: 10px;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.project-details-img img { 
+    object-fit: cover;
+    width: 80%;
+    object-position: top left;
+    position: relative;
+    top: 50px;
+}
