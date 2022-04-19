@@ -1,8 +1,8 @@
-import "../utils/styles/ProjectsSection.css"
-import { ProjectThumbnail } from "./ProjectThumbnail"
-import kasa from "../assets/projects/kasa.png"
-import fisheye from "../assets/projects/eyefish.png"
-import argentbank from "../assets/projects/argent_bank.png"
+import "../../utils/styles/Home/ProjectsSection.css"
+import { ProjectThumbnail } from "../ProjectThumbnail"
+import kasa from "../../assets/projects/kasa.png"
+import fisheye from "../../assets/projects/eyefish.png"
+import argentbank from "../../assets/projects/argent_bank.png"
 import { Link } from "react-router-dom"
 
 export function ProjectsSection() {

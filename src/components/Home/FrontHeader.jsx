@@ -1,5 +1,5 @@
-import "../utils/styles/FrontHeader.css"
-import ellipse from "../assets/ellipse.svg"
+import "../../utils/styles/Home/FrontHeader.css"
+import ellipse from "../../assets/ellipse.svg"
 
 export function FrontHeader() {
     return(

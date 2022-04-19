@@ -14,7 +14,7 @@ export function LastProjects() {
                 <ProjectThumbnail title="Projet 2" tech="tech / tech / tech" IMGurl={fisheye} />
                 <ProjectThumbnail title="Projet 3" tech="tech / tech / tech" IMGurl={argentbank} />
             </div>
-            
+
             <Link to="/"> Voir les projets</Link>
         </section>
     )

@@ -1,10 +1,9 @@
-import { About } from "../components/About"
+import { About } from "../components/Home/About"
 import { Contact } from "../components/Contact"
-import { FrontHeader } from "../components/FrontHeader"
-import { ProjectsSection } from "../components/ProjectsSection"
+import { FrontHeader } from "../components/Home/FrontHeader"
+import { ProjectsSection } from "../components/Home/ProjectsSection"
 import mail from "../assets/mail.svg"
 import linkedIn from "../assets/linkedIn.svg"
-
 
 export function Home() {
     return(
