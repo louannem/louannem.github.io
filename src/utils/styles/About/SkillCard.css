@@ -1,0 +1,34 @@
+.skills-card {
+    width: 450px;
+    height: 450px;
+    background-color: var(--bruised-pink);
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.skills-card .card-header {
+    display: flex;
+    align-items: center;
+}
+
+.skills-card .icon-wrapper {
+    background-color: var(--night-blue);
+    border-radius: 10px 0px 0px 0px;
+    width: 134px;
+    height: 134px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills-card .card-header h3 { 
+    margin: 0px 0px 0px 20px; 
+    font-size: 30px; 
+    color: var(--night-blue); 
+    max-width: 300px;
+    font-weight: 600;
+}

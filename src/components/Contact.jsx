@@ -14,8 +14,8 @@ export function Contact({form}) {
 
             <div className="contact-content">
                 <div className="contact-pills">
-                    <ContactPill text="linked.tree" icon={linkedIn} />
-                    <ContactPill text="louanne.m0122@gmail.com" icon={mail} />
+                    <ContactPill text="linked.tree" icon={linkedIn} mainColor="blue" />
+                    <ContactPill text="louanne.m0122@gmail.com" icon={mail} mainColor="blue" />
                 </div>
             </div>
             {form && <Form />}

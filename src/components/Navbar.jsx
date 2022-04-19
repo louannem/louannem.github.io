@@ -5,10 +5,10 @@ export function Navbar() {
     return(
         <nav>
             <div className="links-wrapper">
-                <Link to="/">Accueil</Link>
-                <Link to="/">A propos</Link>
+                <Link to="/home">Accueil</Link>
+                <Link to="/about">A propos</Link>
                 <Link to="/">Projets</Link>
-                <Link to="/" className="contact-button">Contact</Link>
+                <a href="#Contact-section" className="contact-button">Contact</a>
             </div>
             
         </nav>

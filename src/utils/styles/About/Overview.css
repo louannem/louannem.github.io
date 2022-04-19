@@ -1,0 +1,9 @@
+#Overview-section h2 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+#Overview-section p { font-size: 25px;}
+
+#Overview-section .skills-grid { display: flex; justify-content: space-around;}

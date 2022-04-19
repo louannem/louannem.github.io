@@ -6,14 +6,15 @@
 }
 
 .icon-wrapper {
-    background-color: var(--night-blue);
     width: 55px;
     height: 100%;
     border-radius: 5px 0px 0px 5px;
     display: flex;
 }
 
-.icon-wrapper img { margin: auto;} 
+.blue-pill { background-color: var(--night-blue);}
+
+.blue-pill img { margin: auto;} 
 
 .text-wrapper {
     background-color: #ffff;
