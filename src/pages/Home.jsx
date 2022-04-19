@@ -1,6 +1,8 @@
 import { About } from "../components/About"
+import { Contact } from "../components/Contact"
 import { FrontHeader } from "../components/FrontHeader"
 import { Navbar } from "../components/Navbar"
+import { ProjectsSection } from "../components/ProjectsSection"
 
 
 export function Home() {
@@ -9,6 +11,8 @@ export function Home() {
             <Navbar />
             <FrontHeader />
             <About />
+            <ProjectsSection />
+            <Contact form={true} />
         </section>
     )
 }

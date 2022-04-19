@@ -28,7 +28,7 @@ code {
 
 
 
-#about-wrapper {
-  padding: 2% 10%;
+#about-wrapper, #Projects-section-wrapper, #Contact-section {
+  padding: 2% 10% 5% 10%;
   box-sizing: border-box;
 }

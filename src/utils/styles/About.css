@@ -1,5 +1,4 @@
 #about-wrapper {
-    position: absolute;
     height: auto;
     width: 100%;
     background-color: var(--bruised-pink);
@@ -45,6 +44,14 @@
     justify-content: space-between;
 }
 
-.about-text a { width: 115px; background-color: var(--night-blue); color: var(--bruised-pink); text-decoration: none; padding: 5px; border-radius: 5px; text-align: center;}
+.about-text a { 
+    width: 115px; 
+    background-color: var(--night-blue); 
+    color: var(--bruised-pink); 
+    text-decoration: none; padding: 5px; 
+    border-radius: 5px; 
+    text-align: center;
+}
+
 
 .about-text p { font-size: 22px; margin: 0;}

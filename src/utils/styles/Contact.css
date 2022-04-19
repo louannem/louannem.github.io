@@ -1,0 +1,26 @@
+#Contact-section { background-color: var(--bruised-pink); }
+
+.contact-title { 
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-title h2 {
+    text-align: center;
+    font-family: 'eighties_nostalgiaregular';
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: var(--night-blue);
+}
+
+.contact-title span { text-align: center; font-size: 25px;}
+
+.contact-pills { 
+    display: flex;
+    width: auto;
+    margin: auto;
+    justify-content: center;
+    margin: 50px 0px;
+}
+
+.contact-pills > * { margin: 0px 20px;}

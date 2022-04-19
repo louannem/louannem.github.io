@@ -1,0 +1,28 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
+label { display: flex; flex-direction: column; margin: 10px 0px;}
+
+input, textarea { border: none; border-radius: 5px; padding: 10px; box-sizing: border-box;}
+input:focus-visible, textarea:focus-visible { outline: 2px var(--night-blue) solid;} 
+
+input { height: 30px;}
+textarea { height: 200px;}
+
+form button {
+    border: none;
+    margin: auto;
+    width: 115px; 
+    height: 30px;
+    background-color: var(--night-blue); 
+    color: var(--bruised-pink); 
+    text-decoration: none; 
+    padding: 5px; 
+    border-radius: 5px; 
+    text-align: center;
+    cursor: pointer;
+}
