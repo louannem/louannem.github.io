@@ -11,14 +11,14 @@ import { Navbar } from './components/Navbar';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <Navbar />
       <Routes>
         <Route path='/home' element={<Home />} ></Route>
         <Route path="/about" element={<About />}></Route>
         <Route path='/' element={<App />}></Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
 
