@@ -13,8 +13,9 @@
 }
 
 .blue-pill { background-color: var(--night-blue);}
+.pink-pill { background-color: var(--bruised-pink);}
 
-.blue-pill img { margin: auto;} 
+.blue-pill img, .pink-pill img { margin: auto; ;} 
 
 .text-wrapper {
     background-color: #ffff;

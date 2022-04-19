@@ -6,4 +6,4 @@
 
 #Overview-section p { font-size: 25px;}
 
-#Overview-section .skills-grid { display: flex; justify-content: space-around;}
+#Overview-section .skills-grid { display: flex; justify-content: space-around; margin-top: 50px;}

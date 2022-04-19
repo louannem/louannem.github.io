@@ -1,0 +1,16 @@
+.simple-card-wrapper {
+    background-color: #ffff;
+    border-radius: 10px;
+    width: 465px;
+    height: 445px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.simple-card-wrapper h3 {
+    color: var(--night-blue);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}

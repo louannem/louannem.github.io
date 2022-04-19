@@ -1,4 +1,7 @@
-#Contact-section { background-color: var(--bruised-pink); }
+.pink-section { background-color: var(--bruised-pink); }
+.pink-section h2 { color: var(--night-blue); } 
+.blue-section { background-color: var(--night-blue); }
+.blue-section h2 { color: var(--bruised-pink); }
 
 .contact-title { 
     display: flex;
@@ -10,7 +13,6 @@
     font-family: 'eighties_nostalgiaregular';
     font-size: 50px;
     margin-bottom: 10px;
-    color: var(--night-blue);
 }
 
 .contact-title span { text-align: center; font-size: 25px;}

@@ -1,0 +1,12 @@
+#Formation-section { background-color: var(--bruised-pink);}
+
+#Formation-section h2 {
+    text-align: center;
+    font-family: 'eighties_nostalgiaregular';
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: var(--night-blue);
+}
+
+
+#Formation-section .formation-grid { display: flex; justify-content: space-around; margin-top: 50px;}

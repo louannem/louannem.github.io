@@ -1,21 +1,19 @@
 import "../utils/styles/Contact.css"
 import { ContactPill } from "./ContactPills"
-import mail from "../assets/mail.svg"
-import linkedIn from "../assets/linkedIn.svg"
 import { Form } from "./ContactForm"
 
-export function Contact({form}) {
+export function Contact({subTitle, form, pillColor, pillIcon1, pillIcon2, sectionColor}) {
     return(
-        <section id="Contact-section">
+        <section id="Contact-section" className={` ${sectionColor === "pink" ? "pink-section" : sectionColor === "blue" ? "blue-section" : ""}`}>
             <div className="contact-title">
                 <h2>Me contacter</h2>
-                <span>Risus, et, libero duis amet at.</span>
+                {subTitle && <span>Risus, et, libero duis amet at.</span>}
             </div>
 
             <div className="contact-content">
                 <div className="contact-pills">
-                    <ContactPill text="linked.tree" icon={linkedIn} mainColor="blue" />
-                    <ContactPill text="louanne.m0122@gmail.com" icon={mail} mainColor="blue" />
+                    <ContactPill text="linked.tree" icon={pillIcon1} mainColor={pillColor} />
+                    <ContactPill text="louanne.m0122@gmail.com" icon={pillIcon2} mainColor={pillColor} />
                 </div>
             </div>
             {form && <Form />}

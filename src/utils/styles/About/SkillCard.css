@@ -12,6 +12,7 @@
 .skills-card .card-header {
     display: flex;
     align-items: center;
+    height: 134px;
 }
 
 .skills-card .icon-wrapper {
@@ -32,3 +33,7 @@
     max-width: 300px;
     font-weight: 600;
 }
+
+.skills-card .card-content { height: 100%; display: flex; align-items: center;}
+.skills-card ul { margin: 0; padding: 20px 60px;}
+.skills-card li { list-style: none; color: var(--night-blue); font-size: 25px;}
