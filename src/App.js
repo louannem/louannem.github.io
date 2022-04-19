@@ -1,21 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from './assets/undraw_code_thinking_re_gka2.svg';
+import './utils/styles/App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={logo} alt="Underconstruction icon" className='App-logo' />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          En cours de construction
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="github.com/louannem/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Visiter mon  github
         </a>
       </header>
     </div>

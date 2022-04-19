@@ -5,9 +5,21 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+
+  --bruised-pink: #E1BEBE;
+  --night-blue: rgb(40, 48, 80);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@font-face {
+  font-family: 'eighties_nostalgiaregular';
+  src: url('./assets/fonts/eightiesnostalgia-webfont.woff') format('woff'),
+  url('./assets/fonts/eightiesnostalgia-webfont.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
 }
