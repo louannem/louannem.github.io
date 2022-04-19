@@ -1,6 +1,6 @@
 nav {
     position: absolute;
-    width: 100vw;
+    width: 100%;
     height: 50px;
     background: var(--night-blue);
     box-sizing: border-box;

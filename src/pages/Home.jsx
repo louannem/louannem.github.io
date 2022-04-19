@@ -1,3 +1,4 @@
+import { About } from "../components/About"
 import { FrontHeader } from "../components/FrontHeader"
 import { Navbar } from "../components/Navbar"
 
@@ -7,6 +8,7 @@ export function Home() {
         <section>
             <Navbar />
             <FrontHeader />
+            <About />
         </section>
     )
 }

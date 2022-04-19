@@ -9,6 +9,8 @@ body {
 
   --bruised-pink: #E1BEBE;
   --night-blue: rgb(40, 48, 80);
+
+  
 }
 
 code {
@@ -22,4 +24,11 @@ code {
   url('./assets/fonts/eightiesnostalgia-webfont.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
+}
+
+
+
+#about-wrapper {
+  padding: 2% 10%;
+  box-sizing: border-box;
 }
