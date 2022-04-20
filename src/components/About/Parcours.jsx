@@ -7,8 +7,10 @@ export function Parcours() {
             <h2>Formation & expériences</h2>
 
             <div className="formation-grid">
-                <SimpleCard title="Formations" />
-                <SimpleCard title="Expériences" />
+                
+                <SimpleCard title="Formation" type="formation" />
+                <SimpleCard title="Expériences" type="experience" />
+               
             </div>
         </section>
     )

@@ -26,6 +26,12 @@
     font-size: 18px;
     cursor: pointer;
     margin-right: 20px;    
+    transition: 0.3s;
+}
+
+.projects-links a:hover {
+    color: var(--bruised-pink);
+    background-color: var(--night-blue);
 }
 
 .project-details-img {

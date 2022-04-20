@@ -4,13 +4,14 @@ import kasa from "../../assets/projects/kasa.png"
 import fisheye from "../../assets/projects/eyefish.png"
 import argentbank from "../../assets/projects/argent_bank.png"
 import { Link } from "react-router-dom"
+import { homeData } from "../../utils/datas/home"
 
 export function ProjectsSection() {
     return(
         <section id="Projects-section-wrapper">
             <div className="projects-title">
                 <h2>Derniers projets</h2>
-                <span>Risus, et, libero duis amet at.</span>
+                <span>{homeData.lastProjectsUnderTitle}</span>
             </div>
 
             <div className="projects-grid">

@@ -35,7 +35,8 @@
     padding: 0;
 }
 
-.technologies-block li { list-style-type: none; font-size: 25px; color: var(--night-blue);}
+.technologies-block li { list-style-type: none; font-size: 25px; color: black; font-weight: 300;}
+.technologies-block li::before { content: ">"; font-weight: 800; color: var(--night-blue); margin-right: 10px;}
 
 .about-text { 
     width: 55%; 

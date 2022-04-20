@@ -5,8 +5,12 @@ import { Contact } from "../components/Contact";
 import { Header } from "../components/Header";
 import blueLinkedIn from "../assets/linkedin-in-blue.svg"
 import blueMail from "../assets/envelope-blue.svg"
+import { useEffect } from "react";
 
 export function About() {
+    useEffect(() => {
+        document.title = "A propos"
+    })
     return(
         <section>
            <Header title="A propos" />

@@ -1,26 +1,31 @@
 import { Link } from "react-router-dom"
 import "../../utils/styles/Home/About.css"
+import { homeData } from "../../utils/datas/home"
+import { useEffect } from "react"
 
 export function About() {
+    useEffect(() => {
+        console.log(homeData.undertitle)
+    })
+
     return(
         <section id="about-wrapper">
             <div className="about-title">
                 <h2>A propos</h2>
-                <span>Risus, et, libero duis amet at.</span>
+                <span>{homeData.aboutUnderTitle}</span>
             </div>
             
             <div className="about-content">
                 <div className="technologies-block">
                     <ul>
-                        <li>Tech 1</li>
-                        <li>Tech 2</li>
-                        <li>Tech 3</li>
-                        <li>Tech 4</li>
+                        {homeData.boxText.map((text, index) => (
+                            <li key={index}>{text}</li>
+                        ))}
                     </ul>
                 </div>
 
                 <div className="about-text">
-                    <p>Adipiscing sagittis lorem elit purus pellentesque ornare. Imperdiet amet nisl lacus, sed gravida pretium vel. Sapien hendrerit pharetra turpis morbi dictum aliquam luctus nulla nulla. Nibh pretium id odio ac risus nisl. Ac fermentum cursus ornare proin. </p>
+                    <p> {homeData.contentText} </p>
                     <Link to="/about">Plus de détails</Link>
                 </div>
             </div>

@@ -10,3 +10,17 @@
 
 
 #Formation-section .formation-grid { display: flex; justify-content: space-around; margin-top: 50px;}
+
+
+.simple-card-content { 
+    padding: 0px 30px 0px 30px; 
+    box-sizing: border-box; 
+    height: 100%; 
+    overflow-y: auto;
+    scrollbar-color: var(--bruised-pink) #ffff ;
+  scrollbar-width: thin;
+}
+.simple-card-content > div { margin: 0px 0px 30px 0px }
+.simple-card-content h4 { margin: 0; font-size: 18px;}
+.simple-card-content span { color: grey}
+.simple-card-content p { margin: 5px 0px; font-size: 15px;}
