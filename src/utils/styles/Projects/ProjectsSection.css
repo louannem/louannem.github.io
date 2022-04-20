@@ -3,3 +3,7 @@
 }
 
 .projects-list { margin: 70px 0px}
+
+@media screen and (max-width: 490px) {
+    
+}

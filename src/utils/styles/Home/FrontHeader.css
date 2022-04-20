@@ -52,3 +52,11 @@
         opacity: 1;
     }
 }
+
+
+@media screen and (max-width: 490px) {
+    #Frontheader-wrapper h1 { width: 90%; font-size: 50px; }
+    #Frontheader-wrapper span { font-size: 20px;}
+    #Frontheader-wrapper p { font-size: 35px;}
+    #Frontheader-wrapper img { width: 45vh}
+}

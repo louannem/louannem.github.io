@@ -56,3 +56,11 @@
 
 
 .about-text p { font-size: 22px; margin: 0;}
+
+@media screen and (max-width: 490px) {
+    .about-content { flex-direction: column;}
+    .about-title { text-align: center;}
+    .technologies-block { width: 100%;}
+    .about-text { margin-top: 20px; width: 100%; text-align: justify; align-items: center;}
+    .about-text a { margin-top: 20px;}
+}

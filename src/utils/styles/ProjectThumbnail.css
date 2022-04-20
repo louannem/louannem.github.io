@@ -32,3 +32,8 @@
 }
 
 .thumbnail-wrapper:hover { opacity: 1;}
+
+
+@media screen and (max-width: 490px) {
+    .project-thumbnail { height: 250px; margin-bottom: 20px;}
+}

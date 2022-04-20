@@ -32,3 +32,11 @@
     font-size: 20px;
     width: 145px;
 }
+
+
+@media screen and (max-width: 490px) {
+    .projects-title { text-align: center;}
+    .projects-grid { grid-template-columns: 100%}
+    .projects-grid > * { margin: auto;}
+    #Projects-section-wrapper a { margin: 20px auto}
+}

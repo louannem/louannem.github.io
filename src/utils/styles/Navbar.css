@@ -23,3 +23,8 @@ nav a { color: var(--bruised-pink); text-decoration: none; font-size: 20px; marg
 .links-wrapper a { width: 25%; text-align: center;}
 
 nav .contact-button { background-color: var(--bruised-pink); padding: 5px 15px; color: var(--night-blue); border-radius: 5px;}
+
+@media screen and (max-width: 490px){
+    nav { width: 100%;}
+    nav a { font-size: 17px;}
+}
