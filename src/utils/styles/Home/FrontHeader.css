@@ -54,9 +54,13 @@
 }
 
 
-@media screen and (max-width: 490px) {
+@media screen and (min-width: 0px) and (max-width: 1000px) {
     #Frontheader-wrapper h1 { width: 90%; font-size: 50px; }
     #Frontheader-wrapper span { font-size: 20px;}
     #Frontheader-wrapper p { font-size: 35px;}
     #Frontheader-wrapper img { width: 45vh}
+}
+
+@media screen and (min-width: 491px) {
+    
 }
