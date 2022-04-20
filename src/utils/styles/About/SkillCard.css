@@ -35,8 +35,9 @@
 }
 
 .skills-card .card-content { height: 100%; display: flex; align-items: center;}
-.skills-card ul { margin: 0; padding: 20px 60px;}
-.skills-card li { list-style: none; color: var(--night-blue); font-size: 25px;}
+.skills-card ul { margin: 0; padding: 20px 40px;}
+.skills-card li { list-style: none; color: var(--night-blue); font-size: 25px; margin: 7.5px 0px}
+.skills-card li::before { content: "\2022 "; margin-right: 10px;}
 
 @media screen and (max-width: 490px) {
     .skills-card { width: 100%; margin-bottom: 20px; height: 350px;}
@@ -44,6 +45,9 @@
     .card-header .icon-wrapper { height: 100%;}
     .card-header .icon-wrapper img { height: 70%;}
     .skills-card .card-header h3 { font-size: 25px; margin-left: 30px;}
+
+    .card-content { overflow-y: auto; scrollbar-color: var(--bruised-pink) #ffff;}
+    .skills-card li { font-size: 20px;}
 }
 @media screen and (min-width: 491px) and (max-width: 1100px) {
     .skills-card { width: 75%; height: 350px; margin-bottom: 20px ;}

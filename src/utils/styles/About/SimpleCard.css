@@ -15,9 +15,13 @@
     font-weight: 600;
 }
 
+.simple-card-wrapper p { text-align: justify; }
+
+.card-dates { display: flex; flex-direction: column;}
+
 
 @media screen and (max-width: 490px) {
-    .simple-card-wrapper { width: 100%; margin-bottom: 20px;}
+    .simple-card-wrapper { width: 100%; height: 400px; margin-bottom: 20px;}
     .simple-card-wrapper h3 { font-size: 25px;}
 }
 

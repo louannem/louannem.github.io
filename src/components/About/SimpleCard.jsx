@@ -10,7 +10,10 @@ export function SimpleCard({title, type}) {
                 {type === "formation" && formationObj.map((formation, index) => (
                     <div key={`formation-${index}`}>
                         <h4>{formation.title}</h4>
-                        <span>{formation.undertitle} - {formation.years}</span>
+                        <div className="card-dates">
+                            <span>{formation.undertitle}</span>
+                            <span>{formation.years}</span>
+                        </div>
                         <p>{formation.details}</p>
                     </div>
                 ))}
@@ -18,7 +21,11 @@ export function SimpleCard({title, type}) {
                 {type === "experience" && experienceObj.map((experience, index) => (
                     <div key={`formation-${index}`}>
                         <h4>{experience.title}</h4>
-                        <span>{experience.undertitle} - {experience.years}</span>
+                        <div className="card-dates">
+                            <span>{experience.undertitle}</span>
+                            <span>{experience.years}</span>
+                        </div>
+                        
                         <p>{experience.details}</p>
                     </div>
                 ))}
