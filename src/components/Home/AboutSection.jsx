@@ -1,12 +1,8 @@
 import { Link } from "react-router-dom"
 import "../../utils/styles/Home/About.css"
 import { homeData } from "../../utils/datas/home"
-import { useEffect } from "react"
 
 export function About() {
-    useEffect(() => {
-        console.log(homeData.undertitle)
-    })
 
     return(
         <section id="about-wrapper">

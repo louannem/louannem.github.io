@@ -12,7 +12,7 @@ export function Contact({undertitleText, subTitle, form, pillColor, pillIcon1, p
 
             <div className="contact-content">
                 <div className="contact-pills">
-                    <ContactPill text="linked.tree" icon={pillIcon1} mainColor={pillColor} />
+                    <ContactPill text="louannem" icon={pillIcon1} mainColor={pillColor} />
                     <ContactPill text="louanne.m0122@gmail.com" icon={pillIcon2} mainColor={pillColor} />
                 </div>
             </div>

@@ -3,7 +3,7 @@ import { Contact } from "../components/Contact"
 import { FrontHeader } from "../components/Home/FrontHeader"
 import { ProjectsSection } from "../components/Home/ProjectsSection"
 import mail from "../assets/mail.svg"
-import linkedIn from "../assets/linkedIn.svg"
+import github from "../assets/github.svg"
 import { homeData } from "../utils/datas/home"
 import { useEffect } from "react"
 
@@ -16,7 +16,7 @@ export function Home() {
             <FrontHeader />
             <About />
             <ProjectsSection />
-            <Contact undertitleText={homeData.contactUnderTitle} subTitle={true} form={true} pillColor="blue" sectionColor="pink" pillIcon1={linkedIn} pillIcon2={mail} />
+            <Contact undertitleText={homeData.contactUnderTitle} subTitle={true} form={true} pillColor="blue" sectionColor="pink" pillIcon1={github} pillIcon2={mail} />
         </section>
     )
 }

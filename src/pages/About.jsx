@@ -3,7 +3,7 @@ import { Overview } from "../components/About/Overview";
 import { Parcours } from "../components/About/Parcours";
 import { Contact } from "../components/Contact";
 import { Header } from "../components/Header";
-import blueLinkedIn from "../assets/linkedin-in-blue.svg"
+import blueGithub from "../assets/github-blue.svg"
 import blueMail from "../assets/envelope-blue.svg"
 import { useEffect } from "react";
 
@@ -17,7 +17,7 @@ export function About() {
            <Overview />
            <Parcours />
            <LastProjects />
-           <Contact subTitle={false} form={false} sectionColor="blue" pillColor="pink" pillIcon1={blueLinkedIn} pillIcon2={blueMail} />
+           <Contact subTitle={false} form={false} sectionColor="blue" pillColor="pink" pillIcon1={blueGithub} pillIcon2={blueMail} />
         </section>
     )
 }
