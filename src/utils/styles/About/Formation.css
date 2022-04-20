@@ -24,3 +24,8 @@
 .simple-card-content h4 { margin: 0; font-size: 18px;}
 .simple-card-content span { color: grey}
 .simple-card-content p { margin: 5px 0px; font-size: 15px;}
+
+
+@media screen and (max-width: 490px) {
+  .formation-grid { flex-direction: column;}
+}
