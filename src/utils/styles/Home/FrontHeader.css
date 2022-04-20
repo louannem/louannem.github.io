@@ -61,6 +61,6 @@
     #Frontheader-wrapper img { width: 45vh}
 }
 
-@media screen and (min-width: 491px) {
-    
+@media screen and (min-width: 491px) and (max-width: 1000px) {
+    #Frontheader-wrapper img { width: 75vh}
 }
