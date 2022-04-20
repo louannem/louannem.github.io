@@ -41,7 +41,7 @@
 .project-details-img img { 
     object-fit: cover;
     width: 80%;
-    object-position: top left;
+    object-position: top center;
     position: relative;
     top: 50px;
 }

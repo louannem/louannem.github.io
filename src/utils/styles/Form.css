@@ -3,15 +3,16 @@ form {
     flex-direction: column;
     width: 50%;
     margin: auto;
+    font-family: 'Segoe UI';
 }
 
 label { display: flex; flex-direction: column; margin: 10px 0px;}
 
-input, textarea { border: none; border-radius: 5px; padding: 10px; box-sizing: border-box;}
+input, textarea { border: none; border-radius: 5px; padding: 10px; box-sizing: border-box; font-family: 'Segoe UI';}
 input:focus-visible, textarea:focus-visible { outline: 2px var(--night-blue) solid;} 
 
 input { height: 30px;}
-textarea { height: 200px;}
+textarea { height: 200px; resize: none;}
 
 form button {
     border: none;

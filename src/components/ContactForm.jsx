@@ -2,15 +2,18 @@ import "../utils/styles/Form.css"
 
 export function Form() {
     return(
-        <form>
+        <form 
+        action="https://formspree.io/f/mnqwgzqv"
+        method="POST"
+        >
             <label>Email
-                <input type="text"/>
+                <input type="email" name="email" />
             </label>
             <label>Message
-                <textarea></textarea>
+                <textarea name="message"></textarea>
             </label>
             
-            <button>Envoyer</button>
+            <button type="submit">Envoyer</button>
         </form>
     )
 }
