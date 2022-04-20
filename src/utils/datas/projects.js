@@ -4,7 +4,7 @@ import ohmyfood from "../../assets/projects/ohmyfood.jpg"
 import hrnet from "../../assets/projects/hrnet.png" 
 import argentBank from "../../assets/projects/argent_bank.png"
 
-export const projectPararaphe = "A turpis tincidunt neque porttitor blandit risus, nam gravida aenean. Vestibulum enim pretium lacinia diam consectetur scelerisque aliquet tristique. Ultricies habitant sociis dis eget nibh lectus vitae. Morbi tellus ut."
+export const projectPararaphe = "L'intégralité de mes projets est disponible sur mon github @louannem."
 
 export const projectObj = [
     {
