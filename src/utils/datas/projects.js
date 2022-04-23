@@ -4,13 +4,13 @@ import ohmyfood from "../../assets/projects/ohmyfood.jpg"
 import hrnet from "../../assets/projects/hrnet.png" 
 import argentBank from "../../assets/projects/argent_bank.png"
 
-export const projectPararaphe = "L'intégralité de mes projets est disponible sur mon github @louannem."
+export const projectPararaphe = `L'intégralité de mes projets est disponible sur mon github @louannem.`
 
 export const projectObj = [
     {
         title: "Ohmyfood",
         tech: ["HTML / CSS / SASS"],
-        description: "Une application pour mobile développement avec SASS. Inclu des animations en CSS/SASS ainsi qu'une page de chargement.",
+        description: `Un site web centré mobile développé avec SASS. Inclu des animations en CSS/SASS ainsi qu'une page de chargement.`,
         img: ohmyfood,
         codeURL: "https://github.com/louannem/LouanneMartins_3_10062021",
         projectURL: "https://louannem.github.io/LouanneMartins_3_10062021/"
@@ -18,7 +18,7 @@ export const projectObj = [
     {
         title: "Fisheye",
         tech: ["HTML / CSS / JavaScript / Accessibilité"],
-        description: "Une site web pour afficher les galleries de photographes professionnels. Développé par module et accessible. Navigation avec clavier et lecteur d'écran disponible",
+        description: "Une site web pour afficher les galleries de photographes professionnels. Développé avec factory design pattern et axé accessibilité. Navigation avec clavier et lecteur d'écran disponible.",
         img: fisheye,
         codeURL: "https://github.com/louannem/LouanneMartins_6_20072021",
         projectURL: "https://louannem.github.io/LouanneMartins_6_20072021/src/index.html"
@@ -26,7 +26,7 @@ export const projectObj = [
     {
         title: "Kasa",
         tech: ["React / React Router"],
-        description: "Intégration d'une maquette avec React et ajout d'un router. Affichage des logements sur des pages individuelles et implémentation de leurs données dans leurs composants.",
+        description: "Intégration d'une maquette avec React et ajout d'un router. Affichage des logements sur des pages individuelles et implémentation de leurs données dans les composants.",
         img: kasa,
         codeURL: "https://github.com/louannem/LouanneMartins_11_28122021"
     },

@@ -6,7 +6,7 @@ export const aboutDatas = {
 
 export const formationObj = [
     {
-        title : "Formation Développemeur JavaScript / React",
+        title : "Formation Développeur JavaScript / React",
         undertitle: "OpenClassroom",
         years: "2021 - 2022",
         details: "Création de sites web et d’applications avec JS/React, otpimisation des performances d'une application, communication avec des API, réalisation de tests avec Jest, production d'une documentation technique pour une application ou un plugin."
@@ -36,6 +36,6 @@ export const experienceObj = [
         title : " UX/UI design & Intégration HTML/CSS",
         undertitle: "Stage chez MimoLife",
         years: "De Novembre 2018 à Janvier 2019",
-        details: "Conception de l'UX d'une application, du user flow et wireframing. Conception du design de l'interface d'une application afin interaction entre prototypes sur Adobe Xd. Intégration des pages de l'application et de composants avec le framework Semantic UI."
+        details: "Conception de l'UX d'une application, du user flow et wireframing. Conception du design de l'interface d'une application avec interactions entre prototypes sur Adobe Xd. Intégration des pages de l'application et de composants avec le framework Semantic UI."
     },
 ]
