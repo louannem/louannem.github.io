@@ -3,6 +3,7 @@ import fisheye from "../../assets/projects/eyefish.png"
 import ohmyfood from "../../assets/projects/ohmyfood.jpg"
 import hrnet from "../../assets/projects/hrnet.png" 
 import argentBank from "../../assets/projects/argent_bank.png"
+import sportsee from "../../assets/projects/sportsee.png"
 
 export const projectPararaphe = `L'intégralité de mes projets est disponible sur mon github @louannem.`
 
@@ -29,6 +30,13 @@ export const projectObj = [
         description: "Intégration d'une maquette avec React et ajout d'un router. Affichage des logements sur des pages individuelles et implémentation de leurs données dans les composants.",
         img: kasa,
         codeURL: "https://github.com/louannem/LouanneMartins_11_28122021"
+    },
+    {
+        title: "Sportsee",
+        tech: ["React / React Router / Recharts"],
+        description: "Dashboard d'une application de coaching sportif avec graphiques analytiques. Récupération des données via une API Rest et des données mockées.",
+        img: sportsee,
+        codeURL: "https://github.com/louannem/LouanneMartins_12_11012022"
     },
     {
         title: "Argent Bank",
