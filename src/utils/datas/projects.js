@@ -4,6 +4,7 @@ import ohmyfood from "../../assets/projects/ohmyfood.jpg"
 import hrnet from "../../assets/projects/hrnet.png" 
 import argentBank from "../../assets/projects/argent_bank.png"
 import sportsee from "../../assets/projects/sportsee.png"
+import DadouEscape from "../../assets/projects/dadou_escpae.jpg"
 
 export const projectPararaphe = `L'intégralité de mes projets est disponible sur mon github @louannem.`
 
@@ -52,4 +53,14 @@ export const projectObj = [
         img: hrnet,
         codeURL: "https://github.com/louannem/LouanneMartins_14_15032022",
     },
+]
+
+
+export const inWorks = [
+    {
+        title: "Dadou Escape",
+        tech: ["HTML / CSS  / Wordpress"],
+        description: "Lorem ipsum",
+        img: DadouEscape,
+    }
 ]

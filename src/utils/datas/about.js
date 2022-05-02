@@ -9,7 +9,7 @@ export const formationObj = [
         title : "Formation Développeur JavaScript / React",
         undertitle: "OpenClassroom",
         years: "2021 - 2022",
-        details: "Création de sites web et d’applications avec JS/React, otpimisation des performances d'une application, communication avec des API, réalisation de tests avec Jest, production d'une documentation technique pour une application ou un plugin."
+        details: "Création de sites web et d’applications avec JS/React, optimisation des performances d'une application, communication avec des API, réalisation de tests avec Jest, production d'une documentation technique pour une application ou un plugin."
     },
     {
         title : "Master IDEMM",

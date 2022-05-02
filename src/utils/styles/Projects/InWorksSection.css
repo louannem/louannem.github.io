@@ -1,0 +1,18 @@
+#Inworks-projects-section {
+    /*background-color: var(--bruised-pink);*/
+}
+
+#Inworks-projects-section .project-details-img {
+    background-color: var(--night-blue);
+}
+
+#Inworks-projects-section a { background-color: var(--night-blue); color: var(--bruised-pink);}
+#Inworks-projects-section a:hover { background-color: var(--bruised-pink); color: var(--night-blue);}
+
+#Inworks-projects-section h2 {
+    text-align: center;
+    font-family: 'eighties_nostalgiaregular';
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: var(--night-blue);
+}
