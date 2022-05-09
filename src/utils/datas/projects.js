@@ -4,7 +4,7 @@ import ohmyfood from "../../assets/projects/ohmyfood.jpg"
 import hrnet from "../../assets/projects/hrnet.png" 
 import argentBank from "../../assets/projects/argent_bank.png"
 import sportsee from "../../assets/projects/sportsee.png"
-import DadouEscape from "../../assets/projects/dadou_escpae.jpg"
+import LearnAtHome from "../../assets/projects/learn_at_home.png"
 
 export const projectPararaphe = `L'intégralité de mes projets est disponible sur mon github @louannem.`
 
@@ -58,9 +58,10 @@ export const projectObj = [
 
 export const inWorks = [
     {
-        title: "Dadou Escape",
-        tech: ["HTML / CSS  / Wordpress"],
-        description: "Lorem ipsum",
-        img: DadouEscape,
+        title: "Learn at home",
+        tech: ["React / React Router / Firebase"],
+        description: "Une application de chat développée avec React et Firebase. Comprend un système d'inscription et d'authentification, un système de création de chatrooms et de messagerie instantanée. Projet inspiré par un projet de la formation de webdev Frontend d'OpenClassroom.",
+        img: LearnAtHome,
+        codeURL: "https://github.com/louannem/learn-at-home"
     }
 ]

@@ -36,7 +36,7 @@ code {
 
 @media screen and (max-width: 490px) {
   #about-wrapper, #Projects-section-wrapper, #Contact-section, #Overview-section, #Formation-section, 
-  #Last-projects-section, #Projects-section {
+  #Last-projects-section, #Projects-section, #Inworks-projects-section {
   padding: 2% 2% 5% 2%;;
   }
 

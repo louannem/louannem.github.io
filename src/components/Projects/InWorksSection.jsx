@@ -7,7 +7,7 @@ export const InWorksSection = () => {
         <section id="Inworks-projects-section">
             <h2>Projets en cours</h2>
 
-            <div className="projects-grid">
+            <div className="projects-list">
             {inWorks.map((project, index) => (
                 <ProjectDetails key={`project-${index}`} object={project} />
                 ))}
